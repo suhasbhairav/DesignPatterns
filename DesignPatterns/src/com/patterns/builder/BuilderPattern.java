@@ -8,5 +8,10 @@ public class BuilderPattern {
 		waiter.setPizzaBuilder(pizzaBuilder);
 		waiter.constructPizza();
 		Pizza pizza = waiter.getPizza();
+		
+		pizzaBuilder = new SpicyPizzaBuilder();
+		waiter.setPizzaBuilder(pizzaBuilder);
+		waiter.constructPizza();
+		pizza = waiter.getPizza();
 	}
 }
