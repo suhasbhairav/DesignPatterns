@@ -1,6 +1,6 @@
 # DesignPatterns
 
-Design Patterns in Java
+Basic Design Patterns in Java
 
 Sources:-
 https://sourcemaking.com/design_patterns/builder/java/2
